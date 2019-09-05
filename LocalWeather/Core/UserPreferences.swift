@@ -82,9 +82,6 @@ final class UserPreferences {
     
     var isDarkModeEnabled: Bool {
         get {
-            guard UserDefaults.standard.value(forKey: Keys.darkModeEnabled.value) != nil else {
-                return true
-            }
             return UserDefaults.standard.bool(forKey: Keys.darkModeEnabled.value)
         }
         set {
