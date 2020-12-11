@@ -764,7 +764,8 @@
 			baseConfigurationReference = 08BC7BAC8E0825D92FC9FB3D /* Pods-LocalWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T4FZEXKFYW;
 				INFOPLIST_FILE = LocalWeather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -774,7 +775,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.irudometov.LocalWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = DevAnyApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -785,7 +786,8 @@
 			baseConfigurationReference = 37374A4F9AB3C14C7F37EB7F /* Pods-LocalWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T4FZEXKFYW;
 				INFOPLIST_FILE = LocalWeather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -795,7 +797,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.irudometov.LocalWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = DevAnyApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
